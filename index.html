@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    
+  <body>
+    <div id="container" class="">
+        <h1>Confira o clima de um lugar</h1>
+        <div id="input-button">
+            <input id="country-input" type="text" class="form-control" placeholder="Insira uma cidade ou país">
+            <button id="botao" class="btn btn-info"><i class="bi bi-search"></i></button>
+        </div id="div-info">
+        <div id="information">
+            <div style="display: flex; justify-content: center;">
+            <i style="color: white;" id="pais"><span id="país"></span></i>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <span id="graus" style="font-size: 50px;"></span>
+        </div>
+        <p style="display: flex; justify-content: center;" id="ceu"><img src="" alt="" id="ceu-flag"></p>
+
+        <div id="graus-km" style="display: flex; justify-content: center;">
+            <i style="margin-right: 10px; color: white;"><span style="margin-left: 10px;" id="umidade"></span></i>
+            <i style="color: white;"><span style="margin-left: 10px;" id="velocidade"></span></i>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
